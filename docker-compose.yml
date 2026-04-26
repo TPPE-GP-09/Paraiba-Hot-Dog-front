@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Docker/Dockerfile
+    ports:
+      - "4173:4173"
